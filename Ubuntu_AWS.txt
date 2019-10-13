@@ -1,0 +1,406 @@
+ls
+sudo apt-get update
+sudo apt-get upgrade
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt-get install -y nodejs build-essential
+sudo npm install -g node-red
+npm init
+sudo npm install -g node-red
+top
+node-red
+sudo node-red
+wget -qO- https://repos.influxdata.com/influxdb.key | sudo apt-key add -
+source /etc/lsb-release
+echo "deb https://repos.influxdata.com/${DISTRIB_ID,,} ${DISTRIB_CODENAME} stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
+systemd
+sudo systemd
+sudo apt-get update && sudo apt-get install influxdb
+influxd
+sudo influxd
+sude reboot now
+sudo reboot now
+influxd
+sudo influxd
+sudo systemctl enable influxd
+sudo systemctl enable influxdb
+sudo reboot now
+sudo wget -q -O - https://packages.grafana.com/gpg.key | apt-key add -
+sudo su
+sudo apt-get install grafana
+sudo su
+curl https://packages.grafana.com/gpg.key | sudo apt-key add -
+sudo add-apt-repository "deb https://packages.grafana.com/oss/deb stable main"
+sudo apt-get update
+sudo apt-get -y install grafana
+sudo systemctl start grafana-server
+sudo systemctl enable grafana-server
+sudo systemctl status grafana-server
+sudo ufw allow proto tcp from any to any port 3000
+influx
+top
+influx
+top
+influx
+sudo influx
+influxd
+sudo influxd
+sudo systemctl enable influxd.service
+sudo systemctl start influxd
+sudo systemctl enable influxd
+sudo reboot now
+top
+influx
+sudo influx
+influxd
+sudo influxd
+influxd
+sudo influxd
+sudo nano /etc/influxdb/influxdb.conf 
+influx
+sudo nano /etc/influxdb/influxdb.conf 
+influx
+sudo nano /etc/influxdb/influxdb.conf 
+influx
+sudo nano /etc/influxdb/influxdb.conf 
+sudo systemctl status influx
+sudo systemctl status influxd
+influx
+sudo systemctl status influxd
+sudo nano /etc/influxdb/influxdb.conf 
+influx
+sudo dpkg -i chronograf_1.7.7_amd64.deb
+ping google.com
+sudo dpkg -i chronograf_1.7.7_amd64.deb
+chronograf
+sudo nano /etc/influxdb/influxdb.conf 
+top
+ifconfig
+top
+node-red
+sudo systemctl status node-red
+sudo systemctl status nodered
+sudo reboot now
+ifconfig
+top
+npm install node-red-contrib-mqtt-broker
+sudo npm install node-red-contrib-mqtt-broker
+sudo npm audit fix
+sudo su
+influx
+systemmd
+systemd
+sudo systemd
+sudo systemd --help
+sudo systemd --version
+date
+ngrok http 127.0.0.1:1880
+sudo snap install ngrok
+ngrok http 127.0.0.1:1880
+./ngrok authtoken 1QpCgWFxgXzuHxQPFjcZi2KSchH_6VEpjUgAsK8SpBduHTCbt
+ngrok authtoken 1QpCgWFxgXzuHxQPFjcZi2KSchH_6VEpjUgAsK8SpBduHTCbt
+sudo ngrok authtoken 1QpCgWFxgXzuHxQPFjcZi2KSchH_6VEpjUgAsK8SpBduHTCbt
+sudo su
+ngrok --help
+sudo ngrok authtoken 1QpCgWFxgXzuHxQPFjcZi2KSchH_6VEpjUgAsK8SpBduHTCbt
+cd /
+ls
+ngrok http 127.0.0.1:1880
+sudo ngrok http 127.0.0.1:1880
+sudo snap install ngrok
+snap help refresh
+sudo snap install ngrok
+sudo snap update ngrok
+ngrok
+sudo ngrok http 127.0.0.1:1880
+top
+node-red
+sudo npm uninstall node-red-contrib-mqtt-broker
+node-red
+node-red-stop
+pm2 
+pm2 status
+pm2 stop node-red
+node-red
+top
+node-red-start
+pm2 help
+pm2 -help
+pm2 --help
+pm2 status
+pm2 remove node-red
+pm2 list
+pm2 delete node-red
+cd ~/.node-red/
+ls
+sudo nano flows_ip-172-31-91-210.json 
+node-red
+sudo npm install -g node-red
+sudo suo
+sudo su
+node-red
+sudo apt-get purge --auto-remove nodejs
+cd ~
+ls
+node-red
+nodejs
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt-get install -y nodejs build-essential
+node-red
+cd ~/.node-red/
+ls
+sudo rm .flows*
+ls
+sudo rm flows*
+ls
+sudo rm conf*
+node-red
+sudo npm update
+sudo npm update node-red-contrib-mqtt-broker
+sudo npm install -g npm
+sudo npm update node-red-contrib-mqtt-broker
+node-red
+npm install mosca
+sudo npm install mosca
+node-red
+sudo node-red
+influx
+sudo influxd
+grep ngrok
+ngrok authtoken 1QpCgWFxgXzuHxQPFjcZi2KSchH_6VEpjUgAsK8SpBduHTCbt
+sudo ngrok authtoken 1QpCgWFxgXzuHxQPFjcZi2KSchH_6VEpjUgAsK8SpBduHTCbt
+sudo mkdir /home/ubuntu/.ngrok2
+sudo ngrok authtoken 1QpCgWFxgXzuHxQPFjcZi2KSchH_6VEpjUgAsK8SpBduHTCbt
+sudo su
+top
+sudo systemctl status node-red
+node-red
+history
+sudo ngrok http 127.0.0.1:1880
+sudo influxd
+top
+sudo node-red
+sudo ngrok
+history
+sudo ngrok
+history
+sudo ngrok http 127.0.0.1:1880
+sudo systemctl enable node-red
+sudo systemctl start node-red
+sudo systemctl start nodered
+sudo systemctl start node-red.service
+cd /usr/local/bin/
+ls
+cd /usr/bin/
+ls
+ls | grep node
+sudo pm2 start /usr/bin/node-red -- -v
+pm2 info node-red
+pm2 logs node-red
+top
+pm2 save
+pm2 startup
+sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u ubuntu --hp /home/ubuntu
+pm2 startup systemd
+sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u ubuntu --hp /home/ubuntu
+pm2 status
+sudo reboot now
+top
+cd ~
+ls
+cd /
+lsl
+ls
+cd home/
+ls
+mkdir startup
+sudo mkdir startup
+cd startup/
+sudo nano influxd.sh
+ls
+chmod +x influxd.sh 
+sudo chmod +x influxd.sh 
+ls
+./influxd.sh 
+crontab -e
+update-rc.d cron defaults
+sudo update-rc.d cron defaults
+sudo reboot now
+top
+history
+sudo ngrok http 127.0.0.1:1880
+./ngrok authtoken 1QpCgWFxgXzuHxQPFjcZi2KSchH_6VEpjUgAsK8SpBduHTCbt
+sudo ngrok authtoken 1QpCgWFxgXzuHxQPFjcZi2KSchH_6VEpjUgAsK8SpBduHTCbt
+cd /root/
+ls
+sudo cd /root/
+sudo su
+ngrok --help
+ngrok authtoken
+chown ngrok:ngrok /home/ngrok
+sudo chown ngrok:ngrok /home/ngrok
+snap remove ngrok
+sudo snap remove ngrok
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip
+ls
+unzip ngrok-stable-windows-amd64.zip 
+sudo apt install unzip
+unzip ngrok-stable-windows-amd64.zip 
+./ngrok authtoken 1QpCgWFxgXzuHxQPFjcZi2KSchH_6VEpjUgAsK8SpBduHTCbt
+ngrok authtoken 1QpCgWFxgXzuHxQPFjcZi2KSchH_6VEpjUgAsK8SpBduHTCbt
+ls
+./ngrok.exe 
+sudo ./ngrok.exe 
+sudo rm ngrok
+sudo rm ngrok.exe 
+sudo rm ngrok-stable-windows-amd64.zip 
+curl https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+sudo curl https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+sudo curl https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip ngrok
+sudo curl https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip --output ngrok
+ls
+ngroke
+ngrok
+cd ngrok
+unzip ngrok
+ls
+./ngrok
+$ ./ngrok authtoken 1QpCgWFxgXzuHxQPFjcZi2KSchH_6VEpjUgAsK8SpBduHTCbt
+./ngrok authtoken 1QpCgWFxgXzuHxQPFjcZi2KSchH_6VEpjUgAsK8SpBduHTCbt
+sudo ./ngrok authtoken 1QpCgWFxgXzuHxQPFjcZi2KSchH_6VEpjUgAsK8SpBduHTCbt
+sudo ngrok http 127.0.0.1:1880
+sudo ./ngrok http 127.0.0.1:1880
+top
+ls
+sudo systemctl enable ngrok
+cd ngrok
+sudo systemctl start ngrok.service
+sudo mv ngrok /usr/local/bin
+ls
+sudo mkdir -p /opt/ngrok/systemd/system/
+echo "[Unit]
+Description=ngrok script
+[Service]
+ExecStart=/usr/local/bin/ngrok tcp --region=ap --config=/opt/ngrok/ngrok.yml 22
+Restart=always
+[Install]
+WantedBy=multi-user.target" | sudo tee /opt/ngrok/systemd/system/ngrok.service
+sudo cp /opt/ngrok/systemd/system/ngrok.service /etc/systemd/system/ngrok.service
+sudo systemctl daemon-reload
+sudo systemctl enable ngrok.service
+sudo systemctl start ngrok.service
+sudo systemctl status ngrok.service
+ngrok
+echo "[Unit]
+Description=ngrok script
+[Service]
+ExecStart=/usr/local/bin/ngrok tcp --region=ap --config=/opt/ngrok/ngrok.yml 22
+Restart=always
+[Install]
+WantedBy=multi-user.target" | sudo tee /opt/ngrok/systemd/system/ngrok.service"
+
+
+
+
+
+
+echo "[Unit]
+Description=ngrok script
+[Service]
+ExecStart=/usr/local/bin/ngrok tcp --region=ap --config=/opt/ngrok/ngrok.yml 22
+Restart=always
+[Install]
+WantedBy=multi-user.target" | sudo tee /opt/ngrok/systemd/system/ngrok.service
+sudo ./ngrok http 127.0.0.1:1880
+sudo ngrok http 127.0.0.1:1880
+sudo systemctl enable ngrok.service
+sudo systemctl start ngrok.service
+sudo systemctl status ngrok.service
+service ngrok stop
+sudo service ngrok stop
+systemctl start ngrok
+sudo systemctl start ngrok
+sudo systemctl status ngrok
+sudo ngrok http 127.0.0.1:1880
+influx
+top
+sudo systemctl status influxd
+sudo influxd
+influx
+top
+influx
+top
+influx
+sudo npm install node-red-contrib-throttle
+sudo systemctl stop node-red
+pm2 stop node-red
+sudo node-red
+pm2 start node-red
+pm2 status node-red
+top
+df
+top
+sudo systemctl status influxd
+cd /etc/grafana/
+ls
+sudo nano grafana.ini 
+sudo service grafana-server restart
+top
+sudo npm install node-red-contrib-cpu
+pm2
+pm2 statsus
+pm2 status
+pm2 restart node-red
+pm2 stop node-red
+sudo node-red
+pm2 start node-red
+pm2 status node-red
+for i in 1 2 3 4; do while : ; do : ; done & done
+killall bash
+top
+sudo nohup ngrok http 127.0.0.1:1880
+sudo service start ngrok http 127.0.0.1:1880
+sudo ngrok service start
+sudo ngrok http 127.0.0.1:1880 service start
+sudo ngrok service start http 127.0.0.1:1880
+la
+ls
+cd /
+ls
+grep ngrok
+which ngrok
+cd /usr/local/bin/
+ls
+ll
+cd /
+man nohup
+ls
+cd ~
+ls
+sudo cat nohup.out 
+sudo rm nohup.out 
+sudo nohup ngrok http 127.0.0.1:1880
+exit
+ls
+cat nohup.out 
+sudo cat nohup.out 
+sudo nano nohup.out 
+sudo cat nohup.out 
+ls
+sudo cat nohup.out 
+ls
+sudo nohup ngrok http 127.0.0.1:1880
+sudo ngrok http 127.0.0.1:1880
+sudo nohup ngrok http 127.0.0.1:1880
+ngrok service start
+ngrok http 127.0.0.1:1880 service start
+sudo nano config.yml
+ngrok service install -config config.yml 
+sudo ngrok service install -config config.yml 
+top
+top | grep ngrok
+ls
+sudo cat nohup.out 
+sudo nohup ngrok http 127.0.0.1:1880
+sudo ngrok http 127.0.0.1:1880
+ngrok 80
+ngrok http 80
